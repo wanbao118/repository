@@ -1,0 +1,130 @@
+Last login: Sat Jul 29 11:47:45 on ttys000
+jiangwanbaodeMacBook-Pro:~ jiangwanbao$ cd ~/
+jiangwanbaodeMacBook-Pro:~ jiangwanbao$ ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+jiangwanbaodeMacBook-Pro:~ jiangwanbao$ cd ~/.ssh
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ ls
+known_hosts
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ pwd
+/Users/jiangwanbao/.ssh
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ ssh jiangwanbao:@wanBAO118@192.168.1.105
+Password:
+Last login: Sat Jul 29 11:49:59 2017 from 192.168.1.100
+MacBook-Pro:~ jiangwanbao$ ls
+AnypointStudio		Movies			apache-maven-3.5.0
+Applications		Music			awscli-bundle
+Desktop			OneDrive		depot_tools
+Documents		Pictures		tensorflow
+Downloads		Public
+Library			WebstormProjects
+MacBook-Pro:~ jiangwanbao$ cd Movies/
+MacBook-Pro:Movies jiangwanbao$ ls
+$RECYCLE.BIN			desktop.ini
+Motion Templates.localized	iMovie Theater.theater
+Untitled.fcpbundle		iMovie ?????????.imovielibrary
+MacBook-Pro:Movies jiangwanbao$ exit
+logout
+Connection to 192.168.1.105 closed.
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ cd /Users/jiangwanbao/Documents/workspace1
+jiangwanbaodeMacBook-Pro:workspace1 jiangwanbao$ ls
+RemoteSystemsTempFiles
+Servers
+api-gateway_2_2_1
+book-api
+book-api-demo
+cmb-backend
+demo
+demo-app
+document-integration-using-the-cmis-connector_1.4.0
+munit-demo
+studio_id.xml
+template-munit-testing-scatter-gather-1.2.1
+test-app
+test-ssh
+testing-apikit-with-munit_1.4.0
+jiangwanbaodeMacBook-Pro:workspace1 jiangwanbao$ cd .ssh
+-bash: cd: .ssh: No such file or directory
+jiangwanbaodeMacBook-Pro:workspace1 jiangwanbao$ cd /Users/jiangwanbao/
+jiangwanbaodeMacBook-Pro:~ jiangwanbao$ ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+jiangwanbaodeMacBook-Pro:~ jiangwanbao$ cd .ssh/
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ ls
+known_hosts
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ view known_hosts 
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ pwd
+/Users/jiangwanbao/.ssh
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ ssh 192.168.1.105
+Password:
+Last login: Sat Jul 29 17:54:39 2017 from 192.168.1.100
+MacBook-Pro:~ jiangwanbao$ packet_write_wait: Connection to 192.168.1.105 port 22: Broken pipe
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ 
+  [恢复于 2017年8月5日 下午6:22:10]
+Last login: Sat Aug  5 18:22:02 on console
+Restored session: 2017年 8月 5日 星期六 18时21分07秒 CST
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ dig static-cn.tko.lp.services.online-banking.hsbc.com.cn
+
+; <<>> DiG 9.8.3-P1 <<>> static-cn.tko.lp.services.online-banking.hsbc.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3848
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;static-cn.tko.lp.services.online-banking.hsbc.com.cn. IN A
+
+;; ANSWER SECTION:
+static-cn.tko.lp.services.online-banking.hsbc.com.cn. 900 IN CNAME static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com.
+static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com. 120 IN CNAMEopencdn.jomodns.com.
+opencdn.jomodns.com.	58	IN	A	123.138.42.35
+
+;; Query time: 127 msec
+;; SERVER: 221.11.1.67#53(221.11.1.67)
+;; WHEN: Mon Aug 21 16:03:16 2017
+;; MSG SIZE  rcvd: 195
+
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ dig static-cn.services.online-banking.hsbc.com.cn
+
+; <<>> DiG 9.8.3-P1 <<>> static-cn.services.online-banking.hsbc.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52998
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;static-cn.services.online-banking.hsbc.com.cn. IN A
+
+;; ANSWER SECTION:
+static-cn.services.online-banking.hsbc.com.cn. 900 IN CNAME static-cn.services.online-banking.hsbc.com.cn.a.bdydns.com.
+static-cn.services.online-banking.hsbc.com.cn.a.bdydns.com. 120	IN CNAME opencdn.jomodns.com.
+opencdn.jomodns.com.	31	IN	A	123.138.42.35
+
+;; Query time: 260 msec
+;; SERVER: 221.11.1.67#53(221.11.1.67)
+;; WHEN: Mon Aug 21 16:03:43 2017
+;; MSG SIZE  rcvd: 181
+
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ 
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ 
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ dig static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com
+
+; <<>> DiG 9.8.3-P1 <<>> static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21813
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com. IN A
+
+;; ANSWER SECTION:
+static-cn.tko.lp.services.online-banking.hsbc.com.cn.a.bdydns.com. 120 IN CNAME	opencdn.jomodns.com.
+opencdn.jomodns.com.	38	IN	A	123.138.42.35
+
+;; Query time: 30 msec
+;; SERVER: 221.11.1.67#53(221.11.1.67)
+;; WHEN: Mon Aug 21 16:09:37 2017
+;; MSG SIZE  rcvd: 129
+
+jiangwanbaodeMacBook-Pro:.ssh jiangwanbao$ 
